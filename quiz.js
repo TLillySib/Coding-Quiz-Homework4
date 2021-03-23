@@ -13,8 +13,8 @@ var initialsEl = document.getElementById("initials");
 var feedbackEl = document.getElementById("feedback");
 
 //sound effects
-var sfxRight = new Audio("/Users/tomeekalilly-sibley21/Desktop/Tomeeka Laptop/Working Quiz /sound effects/correct.wav");
-var sfxWrong = new Audio("/Users/tomeekalilly-sibley21/Desktop/Tomeeka Laptop/Working Quiz /sound effects/incorrect.wav");
+var sfxRight = new Audio("/Users/tomeekalilly-sibley21/Desktop/Tomeeka Laptop/JHUBootcamp/homework/Coding-Quiz-Homework4/sound effects/correct.wav");
+var sfxWrong = new Audio("/Users/tomeekalilly-sibley21/Desktop/Tomeeka Laptop/JHUBootcamp/homework/Coding-Quiz-Homework4/sound effects/incorrect.wav");
 
 function startQuiz() {
   var startPage = document.getElementById("startPage");
