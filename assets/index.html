@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+ <!--Tomeeka Lilly Homework 4-Code Quiz-->   
+    <title>Coding Quiz</title>
+</head>
+<body>
+<!--Show the High Scores Link-->
+<nav id="navbar">
+<div class="scores"><a href="highScores.html">View High Scores</a></div>
+<div id="currentTime">Time: <span id="time">0</span></div>
+</nav>
+
+<div id="container">
+<!--Divs for timer and quiz questions-->    
+    <div id="startPage" class="start">
+        <h1>Coding Quiz Challenge</h1>
+
+        <p>Try to answer the following code-related questions within the allotted time.<br><br>
+        Incorrect answers will penalize your score and time by ten seconds!</p>
+<!--Create Button to start time and quiz-->    
+        <button id="startTime">Start Quiz</button>
+</div> 
+
+<div id="questionDiv" class="hide">
+    <h2 id="questionTitle"></h2>
+    <ul id="choicesUl"></ul>
+</div>    
+
+
+<div id="feedback" class="feedbackHide"></div>
+
+<div id="endPage" class="hide">
+    <h2>All Done!</h2>
+    <p>Your final score is <span id="finalScore"></span></p>
+    <P>
+        Enter initials: <input type="text" id="initials" max="3" />
+        <button id="submit">Submit</button>
+    </P>
+</div>
+
+
+<script src="./questions.js"></script>
+<script src="./quiz.js"></script> 
+
+   
+</body>
+</html>
