@@ -24,11 +24,6 @@ Acceptance Criteria
 
 <img width="950" alt="Quiz 1" src="https://tlillysib.github.io/Coding-Quiz-Homework4/">
 
-<img width="950" alt="Quiz 2"
-src="https://tlillysib.github.io/Coding-Quiz-Homework4/">
-
-<img width="950" alt="Quiz 3" src="https://tlillysib.github.io/Coding-Quiz-Homework4/">
-
 <img width="950" alt="Quiz 4" src="https://tlillysib.github.io/Coding-Quiz-Homework4/highscores.html">
 
 
